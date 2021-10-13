@@ -2,6 +2,8 @@ body{
   background-image: url(../design/desktop-design.jpg);
   background-repeat: no-repeat;
   display: grid;
-  grid-template-columns: 12vw 27vw 2vw 14vw 4vw 4vw 5vw 2vw 20vw 3vw 4vw;
-  grid-template-rows: 13vh 2vh 8vh 8vh 8vh 2vh 8vh 2vh 2vh 23vh 2vh 2vh 20vh;
+  /*grid-template-columns: 12vw 27vw 2vw 14vw 4vw 4vw 5vw 2vw 20vw 3vw 4vw;*/
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  /*grid-template-rows: 13vh 2vh 8vh 8vh 8vh 2vh 8vh 2vh 2vh 23vh 2vh 2vh 20vh;*/
 }
