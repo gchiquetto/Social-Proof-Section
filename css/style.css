@@ -27,13 +27,14 @@
     color:hsl(303, 10%, 53%);
     line-height: 1.5;
     clear: both;
-
   }
 
   main{
     display: flex;
     flex-direction: column;
-    margin: 60px 24px;
+    margin: 60px 24px 0 24px;
+    /*background-image: url(../images/bg-pattern-bottom-mobile.svg);*/
+
   }
 
   .top{
@@ -56,13 +57,11 @@
 
   .stars{
     margin: 15px auto 2px auto;
-
   }
 
   .star{
     width: 16px;
     margin-right: 5px;
-
   }
 
   .bottom h3{
@@ -96,15 +95,21 @@
     line-height: 1.8;
     clear: both;
     margin-top: 80px;
-
-
   }
 
-  img{
+  .background-bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 375px;
+    top: 950px;
+    left: 0;
+  }
+
+  .comment img{
     border-radius: 50px;
     width: 55px;
     float: left;
     margin-right: 20px;
-
   }
+
 }
