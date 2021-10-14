@@ -70,6 +70,130 @@
       font-size: 16px;
       float: left;
       margin: 0 30px 2px 0;
+
+  }
+
+  .comment{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    padding: 25px 20px;
+    margin: 20px auto;
+    text-align: left;
+  }
+
+  .buyer{
+    color:hsl(333, 80%, 67%);
+    text-align: left;
+    float: left;
+    margin-top: 2px;
+  }
+
+  .opinion{
+    color:hsl(300, 24%, 96%);
+    text-align: left;
+    font-size: 13.8px;
+    line-height: 1.8;
+    clear: both;
+    margin-top: 80px;
+  }
+
+  .background-bottom{
+    position: absolute;
+    bottom: 0px;
+    width: 375px;
+    top: 950px;
+    left: 0;
+  }
+
+  .comment img{
+    border-radius: 50px;
+    width: 55px;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-device-width: 800px) {
+  body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(../images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    /*background-image: url(../design/mobile-design.jpg);*/
+  }
+
+  h1{
+    font-weight: 700;
+    font-size: 40px;
+    color:hsl(300, 43%, 22%);
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  h2{
+    font-weight: 500;
+    font-size: 14px;
+    color:hsl(303, 10%, 53%);
+    line-height: 1.5;
+    clear: both;
+    text-align: left;
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    margin: 65px 100px 0 100px;
+    /*background-image: url(../images/bg-pattern-bottom-mobile.svg);*/
+  }
+
+  .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+
+  .description{
+    width:400px;
+  }
+
+  .bottom{
+    display: flex;
+    flex-direct: row;
+    justify-content: space-between;
+  }
+
+  .rating{
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 1px 100px;
+    margin: 15px auto;
+    font-size: 10px;
+    font-weight: 500;
+    color:hsl(300, 43%, 22%);
+  }
+
+  .stars{
+    margin: 15px auto 2px auto;
+  }
+
+  .star{
+    width: 16px;
+    margin-right: 5px;
+  }
+
+  .bottom h3{
+      color: hsl(0, 0%, 100%);
+      text-align: left;
+      font-size: 16px;
+      float: left;
+      margin: 0 30px 2px 0;
+
   }
 
   .comment{
