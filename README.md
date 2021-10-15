@@ -8,8 +8,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [Built with](#built-with)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -36,9 +35,7 @@ Users should be able to:
 - Solution URL: []
 - [Live Site URL](https://gchiquetto.github.io/Social-Proof-Section/)
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
