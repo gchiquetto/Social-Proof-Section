@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []
+- [Solution URL](https://www.frontendmentor.io/solutions/social-proof-section-solution-SWnRLDuQk)
 - [Live Site URL](https://gchiquetto.github.io/Social-Proof-Section/)
 
 ## Built with
